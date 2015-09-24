@@ -1,1 +1,35 @@
 Just a few tips on using github
+## 
+
+          TO CREATE A REPOSITORY
+Navigate to the home page of your github account
+click the + button and follow the prompts
+1. Name
+2. Brief description
+3. initialize "README"
+4. create repo
+
+NEXT 
+You have to create a directory for your repo to live in on your local computer.
+1. go to git bash
+2. $ mkdir name of the directory
+3. $ cd new directory
+4. $ git init
+
+NEXT
+Transfer your repo from github to your new directory on git
+1. navigate to the new repo and copy the URL
+2. $ git remote add origin paste the url using shift + ins
+
+YOU MAY WANT TO CREATE A FILE AND COPY OR MOVE IT TO YOUR DIRECTORY
+Lets call out file "keeps"
+Navigate to your new repo on github
+click the + button close to the name of your new repo e.g kaykome/kaytest+
+name your file and create.
+go to github and run:
+1. $ touch keeps
+2. $ git add .   to add the file
+3. $ cp keeps newrepo
+
+3.
+
