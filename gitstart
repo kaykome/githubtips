@@ -25,13 +25,33 @@ Transfer your repo from github to your new directory on git
 YOU MAY WANT TO CREATE A FILE AND COPY OR MOVE IT TO YOUR DIRECTORY
 Lets call out file "keeps"
 Navigate to your new repo on github
+
 click the + button close to the name of your new repo e.g kaykome/kaytest+
 name your file and create.
 go to github and run:
 1. $ touch keeps
 2. $ git add .   to add the file
 3. $ cp keeps newrepo
+4. $ pwd  ## to ensure that you are in the new repo
+5. $ ls   ## newrepo keeps will be displayed showing that the new repo contains the file keeps
 
-3.
+Now you can go to github and commit your changes to your new file. A master branch is automatically created. since it 
+is the first time you are making a commit, you may want to commit directly to the master branch. 
+go to git bash and run:
+1. $ git checkout -b master ## this switches to the master branch.
+go to github
+1. Navigate to keeps and click the master branch and then the edit button
+2. make your commits
+3. click commit changes
+go to git bash and run:
+1. $ git remote add master
+2. $ git push.
+
+NB
+.md is used to create a markdown file e.g
+Helloworld.md
+
+
+
 
 
