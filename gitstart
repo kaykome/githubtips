@@ -81,6 +81,11 @@ $ git remote add filess
 $ git pull or run the above sync commands
 $ git push origin master *** git push origin filess  ### need to clarify this command
 
+TO COMMIT TO A NEW BRANCH ON A REPO YOU CREATED(you may not want to make more changes on your master)
+$ git checkout -b files
+go to git hub and navigate to filess by typing it in the branch menu
+
+
 
 
 
