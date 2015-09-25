@@ -51,6 +51,36 @@ NB
 .md is used to create a markdown file e.g
 Helloworld.md
 
+TO FORK A REPO
+Navigate to the repo you intend to fork and click the fork button, go to your github account and navigate to your forked
+copy of the repo.
+copy the url to your clip board
+
+go to git bash and run:
+1. $ git clone paste the url here
+ go to github and navigate to the upstream copy of the repo and copy the url
+ go back to git bash:
+2. $ git remote add upstream paste the url here
+3. $ git remote -v  ## to see where your remote is pointing at, here it will point at both the origin and upstream.
+
+NEXT
+You have to synchronize your fork to keep it up to date with the upstream repo
+go to git bash:
+1. $ git fetch upstream
+2. $ git checkout master
+3. $ git merge upstream/master
+
+
+TO COMMIT TO A FORKED REPO
+first sync with the above commands
+go to github and navigate to the file you want to commit to, here lets create a new branch in that file called filess
+$ git checkout -b filess
+$ git push origin filess
+go to github navigate to filess and then make your changes and commit
+$ git remote add filess
+$ git pull or run the above sync commands
+$ git push origin master *** git push origin filess  ### need to clarify this command
+
 
 
 
