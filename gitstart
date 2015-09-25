@@ -84,6 +84,9 @@ $ git push origin master *** git push origin filess  ### need to clarify this co
 TO COMMIT TO A NEW BRANCH ON A REPO YOU CREATED(you may not want to make more changes on your master)
 $ git checkout -b files
 go to git hub and navigate to filess by typing it in the branch menu
+click the edit button and make your changes, commit changes then go to git bash and run:
+$ git remote add filess
+$ git push
 
 
 
